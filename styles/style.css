@@ -1,0 +1,11 @@
+html, body{
+    height: 100%;
+}
+.tasneem{
+    height: 100%;
+    background-image: url(../msft-microsoft-logo-2-3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: contain;
+}
