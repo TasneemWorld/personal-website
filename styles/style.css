@@ -1,11 +1,25 @@
-html, body{
-    height: 100%;
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-.tasneem{
-    height: 100%;
-    background-image: url(../msft-microsoft-logo-2-3.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: contain;
+
+/* hearder and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 250px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
 }
