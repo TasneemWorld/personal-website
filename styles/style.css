@@ -75,7 +75,9 @@ main{
     margin: 0 auto;
 }
 /* about section styles */
+
 .about{
+    
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -112,6 +114,7 @@ main{
 }
 /* what i do title */
 .what-i-do{
+    
     margin-top: 130px;
     /* text-align: center; */
 }
@@ -124,6 +127,7 @@ main{
     padding: 0px 150px;
 } 
 .skills-container{
+    
     display: flex;
     margin-top: 50px;
     gap: 24px;
@@ -147,6 +151,7 @@ main{
 }
 /* resume styles */
 .resume-content{
+    
     display: flex;
     gap: 24px;
 }
@@ -179,4 +184,22 @@ main{
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* style contact */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding:0px 250px;
+    margin-top: 113px;
+}
+.contact .contact-titel{
+    text-align: left;
+    margin-top: 130px;
+}
+.contact p{
+    margin-top: 20px;
+}
+.contact a{
+    margin-top: 20px;
 }
